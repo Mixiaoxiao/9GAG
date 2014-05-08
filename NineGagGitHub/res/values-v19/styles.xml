@@ -1,7 +1,0 @@
-<resources>
-
-    <style name="MxxBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
-		<item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowTranslucentNavigation">true</item>
-    </style>
-</resources>
