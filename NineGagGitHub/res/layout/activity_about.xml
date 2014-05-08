@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/about_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/about_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff"
+        android:clipToPadding="false"/>
+
+    <LinearLayout
+        android:id="@+id/about_tab_layout"
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:layout_height="48dp" >
+
+        <com.mixiaoxiao.android.view.MxxPagerSlidingTabStrip
+            android:id="@+id/about_tab"
+            android:layout_width="match_parent"
+            android:background="@color/mxx_item_theme_color_alpha"
+            android:layout_height="48dp" >
+        </com.mixiaoxiao.android.view.MxxPagerSlidingTabStrip>
+    </LinearLayout>
+</FrameLayout>

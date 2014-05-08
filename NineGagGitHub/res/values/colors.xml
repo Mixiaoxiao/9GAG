@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    
+    <color name="renren_light_blue">#ff005092</color>
+    <color name="renren_light_blue_transparent">#99379bff</color>
+    <color name="renren_light_gray">#ff333333</color>
+    <color name="renren_light">#ff808080</color>
+    <color name="secondary_bar_textcolor">#ff566b8e</color>
+    <color name="secondary_bar_background">#ffdadee8</color>
+    <color name="transparent">#0000</color>
+    <color name="fragment_bg">#f0f8f8</color>
+    <color name="setting_pressed">#ffd3d3d3</color>
+    <color name="duba_item_pressed_duba">#ff4290f3</color>
+    <color name="duba_item_pressed">#ff2c577a</color>
+    <color name="duba_item_normal">#ff41464d</color>
+    <color name="duba_item_padding">#ff272a2e</color>
+    <color name="buaa_blue">#ff379bff</color>
+    <color name="buaa_blue_transparent">#99379bff</color>
+    <color name="buaa_blue_bak_3">#ff2c97e1</color>
+    <color name="buaa_blue_bak_2">#ff323f7c</color>
+    <color name="buaa_blue_bak">#ff2c577a</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="main_grey">#ffdddddd</color>
+    <color name="solid_white">#ffffffff</color>
+    <color name="secondary_text">#ff999999</color>
+    <color name="listbackground">#FFDCDCDC</color>
+    <color name="mainsubbar">#515151</color>
+    <color name="listheader">#CCFFFF</color>
+    <color name="username">#0e39aa</color>
+    <color name="createtime">#0e39aa</color>
+    <color name="maintext">#3a3a3a</color>
+    <!-- 全局背景颜色 -->
+    <color name="main_bg">#ffffffff</color>
+    <!-- 全局背景颜色  动态、活动等使用卡片式的item 故背景颜色稍微偏暗一点 -->
+    <color name="main_bg_grey">#fff6f6f6</color>
+    <!-- 全局附加信息背景色 如新鲜事列表 中 的 日志背景 -->
+    <color name="sub_bg">#fff6f6f6</color>
+    <color name="main_text_color">#1a1a1a</color>
+    <color name="sub_text_color">#6a6a6a</color>
+    <color name="quote_text_color">#1a1a1a</color>
+    <color name="menu_bg">#ff34383e</color>
+    <color name="name_color">#ff000000</color>
+    <color name="name_color_bak">#ff0e39aa</color>
+    <color name="time_color">#ff555555</color>
+    <color name="content_color">#ff222222</color>
+    <color name="divider_color">#ffd3d3d3</color>
+    <color name="calendar_pressed_day_bg">#ff2c577a</color>
+    <color name="action_btn_n">#ff57585b</color>
+    <color name="action_btn_p">#ff379bff</color>
+    <color name="dialog_btn_p">#f3000000</color>
+    <color name="dialog_btn_n">#aa000000</color>
+    <color name="dialog_bg">#ff000610</color>
+    <color name="dialog_edge">#80ffffff</color>
+    <color name="view_bg_default_pressed">#33000000</color>
+    <color name="sidebar_item_bg_pressed">#20ffffff</color>
+    <color name="sidebar_grid_item_bg_n">#40ffffff</color>
+    <color name="sidebar_grid_item_bg_p">#40379bff</color>
+    <color name="scrollbar_bg">#44000000</color>
+    <color name="welcom_page_enter_page_title_text">#ffdde8e8</color>
+    <color name="welcom_page_enter_btn_text">#ff00868f</color>
+    <color name="welcom_page_blank_view_background">#80000000</color>
+    <color name="user_agent_about_light_color">#ff395f87</color>
+
+    
+    <color name="mxx_text_main_color">#ff000000</color>
+    <color name="mxx_text_sub_color">#ff888888</color>
+    <color name="mxx_text_title_underline_color">#ffafafaf</color>
+    <color name="mxx_awesome_dark_color">#ff2f3136</color>
+
+    
+    <color name="mxx_item_actionbar_color">#55ffffff</color>
+    <color name="mxx_item_theme_color">#ff005092</color>
+    <color name="mxx_item_theme_color_black">#ff393d43</color>
+    <color name="mxx_item_theme_color_alpha">#cc005092</color>
+    
+    <color name="mxx_item_normal_color">#ffffffff</color>
+    <color name="mxx_item_pressed_color">#ffededed</color>
+    <color name="mxx_item_divider_color">#ffededed</color>
+    <color name="mxx_item_padding_color">#ffe0e0e0</color>
+    <color name="mxx_item_stroke_color">#ffbbbbbb</color>
+    <color name="mxx_item_pressed_color_transparent">#19000000</color>
+	<color name="mxx_listview_bg">#ffe6e6e6</color>
+	<color name="mxx_item_actionbar_listview_divider_color">#22ffffff</color>
+
+</resources>

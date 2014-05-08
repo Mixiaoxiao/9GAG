@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mxx_view_bg_default"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mxx_dialog_list_item_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:minHeight="48dp"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp"
+		android:paddingTop="8dp"
+		android:paddingBottom="8dp"
+        android:gravity="center_vertical"
+        android:text="item"
+        android:textColor="#f111"
+        android:textSize="16sp" />
+
+</LinearLayout>

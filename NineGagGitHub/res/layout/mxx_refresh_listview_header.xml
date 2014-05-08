@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ProgressWheel="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="vertical"
+    android:paddingTop="8dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:id="@+id/mxx_refresh_listview_header_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="#ff6f6f6f"
+            android:textSize="14sp" />
+
+        <com.todddavies.components.progressbar.ProgressWheel
+            android:id="@+id/mxx_refresh_listview_header_progresswheel"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerInParent="true"
+            ProgressWheel:barColor="@color/mxx_item_theme_color_alpha"
+            ProgressWheel:barLength="60dp"
+            ProgressWheel:barWidth="4dp"
+            ProgressWheel:contourColor="#66000000"
+            ProgressWheel:rimColor="#00ffffff"
+            ProgressWheel:rimWidth="4dp"
+            ProgressWheel:spinSpeed="3dp"
+            ProgressWheel:text=""
+            ProgressWheel:textColor="#222222"
+            ProgressWheel:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

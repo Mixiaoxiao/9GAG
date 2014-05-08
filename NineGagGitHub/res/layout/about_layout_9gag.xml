@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mixiaoxiao.android.view.MxxNotifyingScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffff" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/about_9aga" />
+
+        <TextView
+            android:id="@+id/about_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#f111"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:lineSpacingExtra="2dp"
+            android:text="@string/str_about_9gag" />
+        <View 
+            android:layout_width="match_parent"
+            android:layout_height="16dp"/>
+
+    </LinearLayout>
+
+</com.mixiaoxiao.android.view.MxxNotifyingScrollView>
