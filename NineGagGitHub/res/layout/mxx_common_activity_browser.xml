@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mxx_common_activity_browser_webview_rootlayout"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <WebView
+            android:id="@+id/mxx_common_activity_browser_webview"
+            android:layout_width="match_parent"
+            android:background="@android:color/white"
+            android:layout_height="match_parent" />
+
+        <ProgressBar
+            android:id="@+id/mxx_common_activity_browser_progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:progressDrawable="@drawable/mxx_browser_progress_horizontal"
+            android:layout_height="4dp"
+            android:max="100" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/browser_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#ff393d43" >
+
+
+        <ImageButton
+            android:id="@+id/mxx_common_activity_browser_toolbar_btn_back"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/mxx_view_bg_theme"
+            android:scaleType="center"
+            android:src="@drawable/mxx_browser_toolbar_goback" />
+         <View 
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#39ffffff"/>
+
+        <ImageButton
+            android:id="@+id/mxx_common_activity_browser_toolbar_btn_forward"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/mxx_view_bg_theme"
+            android:scaleType="center"
+            android:src="@drawable/mxx_browser_toolbar_goforward" />
+        <View 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+        
+        <ImageButton
+            android:id="@+id/mxx_common_activity_browser_toolbar_btn_refresh"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/mxx_view_bg_theme"
+            android:scaleType="center"
+            android:src="@drawable/toolbar_reflash_btn_normal_pressed" />
+    </LinearLayout>
+
+</LinearLayout>

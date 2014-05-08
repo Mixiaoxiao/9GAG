@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.mixiaoxiao.android.view.MxxListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:cacheColorHint="#00ffffff"
+    android:clipToPadding="false"
+    android:dividerHeight="16dp"
+    android:divider="@android:color/transparent"
+    android:background="@color/mxx_listview_bg"
+    android:fitsSystemWindows="true" >
+
+</com.mixiaoxiao.android.view.MxxListView>
